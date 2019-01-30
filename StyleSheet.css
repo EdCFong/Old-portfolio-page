@@ -1,0 +1,132 @@
+body
+{
+  font-family: 'Crimson Text', serif;
+  color: #DBDBDB;
+  background:#0E50B4;
+}
+.li_link
+{
+  display: block;
+  float: right;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+h3
+{
+  color: #EEBB17;
+  margin: 10%;
+  text-align: left;
+}
+p
+{
+  margin: 10%;
+  text-align: left;
+}
+a
+{
+  color: #EEBB17;
+}
+.li_left
+{
+  margin: 10px;  
+  text-align: left;
+}
+footer
+{
+  height: 200px;
+  background:rgb(91, 157, 233);
+}
+.nav_bar
+{
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  top: 0 px;
+}
+.h2_left
+{
+    text-align: left;
+    margin-left: 10%;
+}
+.achievements_imagen
+{
+  width: 150px;
+}
+.about-divs
+{
+ 
+  
+}
+#welcome
+{
+  top: 0;
+  min-height: 55vh;
+  padding-top: 45vh;
+}
+#About
+{
+  background: rgb(155, 185, 233);
+  color: rgb(54, 49, 49);
+  position: relative;
+  height: 80%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  top: 50px;
+  font-family: 'Krub', sans-serif;
+  -webkit-box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75);
+  box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75); 
+}
+#achievements
+{
+  background: yellow;
+  position: relative;
+  top: 50px;
+  bottom: 50px;
+}
+#projects
+{
+  background: red;
+  position: relative;
+  top: 50px;
+  bottom: 50px;
+}
+#box_who_i_am
+{
+  width: 50%;
+}
+#box_skills
+{
+  width: 50%;
+  background:#EEBB17;
+}
+#skill_list
+{
+  margin-top: 10%;
+}
+#main-doc
+{
+  background-image: url("blue-tech.jpg");
+  background-color:  #1167E8;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  text-align: center;
+}
+#doc-content
+{
+  background: rgba(91, 157, 233, 0.568);
+  margin-left: 60px;
+  margin-right: 60px;
+  
+}
+.nav_bar a:hover {
+  background: #ddd;
+  color: black;
+  text-decoration: none;
+}
