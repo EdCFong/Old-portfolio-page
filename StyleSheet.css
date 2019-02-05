@@ -1,6 +1,10 @@
 body
 {
-  font-family: 'Crimson Text', serif;
+  /*font-family: 'Krub', sans-serif;*/
+  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Exo', sans-serif;*/
+  font-family: 'Titillium Web', sans-serif;
+  /*font-family: 'KoHo', sans-serif;*/
   color: #DBDBDB;
   background:#0E50B4;
 }
@@ -15,8 +19,7 @@ body
 h3
 {
   color: #EEBB17;
-  margin: 10%;
-  text-align: left;
+  
 }
 p
 {
@@ -27,10 +30,11 @@ a
 {
   color: #EEBB17;
 }
-.li_left
+.skills
 {
-  margin: 10px;  
   text-align: left;
+  margin: 5% 5% 5% 10%;
+  font-size: 1.25em;
 }
 footer
 {
@@ -43,26 +47,57 @@ footer
   position: fixed;
   width: 100%;
   top: 0 px;
+  background:rgba(14, 80, 180, 0.787);
+  z-index: 1;
 }
 .h2_left
 {
-    text-align: left;
-    margin-left: 10%;
+  text-align: left;
+  margin-left: 10%;
 }
 .achievements_imagen
 {
-  width: 150px;
+  width: 300px;
+  height: 200px;
 }
 .about-divs
 {
- 
+  width: 320px;
+  height: 240px;
+  padding-top: 10px;
+  background: #EEBB17;
+  color: black;
   
+  
+}
+.container-fluid {
+  padding: 60px 50px;
+}
+.floating-box
+{
+  -webkit-box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75);
+  box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75); 
 }
 #welcome
 {
-  top: 0;
   min-height: 55vh;
   padding-top: 45vh;
+  top: 0;
+}
+#welcome_name
+{
+  margin-left: 25%;
+  margin-right: 30%;
+  padding-bottom: 45vh;
+}
+#welcome-line
+{
+  background: rgb(155, 185, 233);
+  height: 50px;
+  margin-right: 30px;
+  position: relative;
+  bottom: 30px;
 }
 #About
 {
@@ -73,18 +108,13 @@ footer
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
-  border-radius: 5px;
   display: flex;
   flex-direction: row;
   top: 50px;
-  font-family: 'Krub', sans-serif;
-  -webkit-box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75);
-  -moz-box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75);
-  box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75); 
+  
 }
 #achievements
 {
-  background: yellow;
   position: relative;
   top: 50px;
   bottom: 50px;
