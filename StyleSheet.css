@@ -1,3 +1,4 @@
+
 body
 {
   /*font-family: 'Krub', sans-serif;*/
@@ -19,27 +20,22 @@ body
 h3
 {
   color: #EEBB17;
-  
 }
 p
 {
   margin: 10%;
   text-align: left;
-}
-a
-{
-  color: #EEBB17;
-}
-.skills
-{
-  text-align: left;
-  margin: 5% 5% 5% 10%;
   font-size: 1.25em;
 }
 footer
 {
   height: 200px;
   background:rgb(91, 157, 233);
+}
+.a-nav_bar
+{
+  color: #EEBB17;
+  text-decoration: none;
 }
 .nav_bar
 {
@@ -49,11 +45,6 @@ footer
   top: 0 px;
   background:rgba(14, 80, 180, 0.787);
   z-index: 1;
-}
-.h2_left
-{
-  text-align: left;
-  margin-left: 10%;
 }
 .achievements_imagen
 {
@@ -99,20 +90,112 @@ footer
   position: relative;
   bottom: 30px;
 }
+/*Who I am? Section *****************************************************************************************  */
+.a_skill
+{
+  background: linear-gradient(0deg,rgb(12, 73, 163) 30%,  #3779dbde 60%);
+  color: #DBDBDB;
+  display: flex;
+  width: 120px;  
+  height: 55px;
+  margin: 10px;
+  -webkit-box-shadow: 2px 2px 13px -1px rgb(29, 29, 29);
+  -moz-box-shadow: 2px 2px 13px -1px rgb(29, 29, 29);
+  box-shadow: 2px 2px 13px -1px rgb(29, 29, 29);
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 1px solid #696666;
+  transition: transform 0.2s ease-in-out 0.1s;
+}
+.a_skill:hover
+{
+  /*transform:scale(1.2);*/
+  background: linear-gradient(0deg,rgb(12, 73, 163) 30%,  #6baae9de 60%);
+}
+.skill_icon
+{
+  width: 37px;
+  height: 37px;
+  margin: 3px 0px 5px 3px;
+}
+.p_skill
+{
+  margin: 10px 0px 7px 12px; 
+}
+.a_technology
+{
+  text-align: left;
+  padding: 0%;
+  margin: 5% 5% 5% 10%;
+}
+.technology_icon
+{
+  color: rgb(2, 121, 2);
+  margin-right: 7px;
+}
+.h2_left
+{
+  text-align: left;
+  margin-left: 10%;
+}
 #About
 {
   background: rgb(155, 185, 233);
-  color: rgb(54, 49, 49);
+  color: #363131;
   position: relative;
-  height: 80%;
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  height: 480px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   display: flex;
   flex-direction: row;
   top: 50px;
-  
 }
+#box_who_i_am
+{
+  width: 40%;
+}
+#box_skills_technologies
+{
+  width: 60%;
+  background:#EEBB17;
+  border: 1px solid rgb(112, 105, 105);
+  border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+}
+#skills
+{
+  width: 40%;
+}
+#technologies
+{
+  width: 60%;
+}
+#skill_list
+{
+  margin: 20px 0px 20px 20px;
+  padding: 10px 0px 10px 0px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 2px dashed rgb(6, 211, 6);;
+}
+#technologies_list
+{
+  margin-top: 10%;
+}
+/* ***********************************************************************************************************  */
+
 #achievements
 {
   position: relative;
@@ -126,19 +209,7 @@ footer
   top: 50px;
   bottom: 50px;
 }
-#box_who_i_am
-{
-  width: 50%;
-}
-#box_skills
-{
-  width: 50%;
-  background:#EEBB17;
-}
-#skill_list
-{
-  margin-top: 10%;
-}
+
 #main-doc
 {
   background-image: url("blue-tech.jpg");
