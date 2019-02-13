@@ -23,7 +23,7 @@ h3
 }
 p
 {
-  margin: 10%;
+  margin: 5% 10% 10% 10%;
   text-align: left;
   font-size: 1.25em;
 }
@@ -93,7 +93,7 @@ footer
 /*Who I am? Section *****************************************************************************************  */
 .a_skill
 {
-  background: linear-gradient(0deg,rgb(12, 73, 163) 30%,  #3779dbde 60%);
+  background: linear-gradient(160deg, #3779dbde 50%, rgb(26, 92, 192) 50%);
   color: #DBDBDB;
   display: flex;
   width: 120px;  
@@ -111,7 +111,7 @@ footer
 .a_skill:hover
 {
   /*transform:scale(1.2);*/
-  background: linear-gradient(0deg,rgb(12, 73, 163) 30%,  #6baae9de 60%);
+  background: linear-gradient(160deg,rgba(107, 170, 233, 0.871) 50%, rgb(26, 92, 192) 50%);
 }
 .skill_icon
 {
@@ -122,6 +122,7 @@ footer
 .p_skill
 {
   margin: 10px 0px 7px 12px; 
+  
 }
 .a_technology
 {
@@ -138,6 +139,11 @@ footer
 {
   text-align: left;
   margin-left: 10%;
+}
+.h2_left_3
+{
+  text-align: left;
+  margin-left: 3%;
 }
 #About
 {
@@ -156,6 +162,20 @@ footer
 {
   width: 40%;
 }
+#box_who_i_am_Header
+{
+  display: flex;
+  align-items: center;
+  height: 25%;
+  margin-left: 10%;
+}
+#My_photo
+{
+  height: 90px;
+  width: 90px;
+  border-radius: 11px 11px 11px 11px;
+  border: 2px solid #363131;
+}
 #box_skills_technologies
 {
   width: 60%;
@@ -172,6 +192,30 @@ footer
 {
   width: 40%;
 }
+#arrow
+{
+  color: rgb(2, 121, 2);
+  text-align: center;
+  font-size: 3em;
+}
+#arrow :hover
+{
+  transform: rotate(90deg);
+  /*animation-duration: 0.6s;
+  animation-name: rotating;
+  animation-iteration-count: 1;*/
+}
+/*@keyframes rotating
+{
+  0%
+  {
+     transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(90deg);
+  }
+}*/
 #technologies
 {
   width: 60%;
@@ -188,7 +232,7 @@ footer
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
-  border: 2px dashed rgb(6, 211, 6);;
+  border: 2px dashed rgb(6, 211, 6);
 }
 #technologies_list
 {
@@ -212,7 +256,7 @@ footer
 
 #main-doc
 {
-  background-image: url("blue-tech.jpg");
+  background-image: url("https://lh3.googleusercontent.com/5YsGD_nzU2g1gVguJ5MaVkDEHntoyHy4aHfAxbOY3Ogm1Ute7C2jKCfVTP_yXCNFkwXf0QXpmqM2KUWlcP8J8VhniYNBJsva2MGwL65ms-uBeIC6jg6AIuZ1c6PFsS1NVJrHkX8IiJQ=w2400");
   background-color:  #1167E8;
   background-position: center; 
   background-repeat: no-repeat; 
