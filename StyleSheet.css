@@ -9,17 +9,14 @@ body
   color: #DBDBDB;
   background:#0E50B4;
 }
-.li_link
-{
-  display: block;
-  float: right;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
 h3
 {
   color: #EEBB17;
+}
+h2
+{
+  padding: 0;
+  margin: 0;
 }
 p
 {
@@ -27,10 +24,35 @@ p
   text-align: left;
   font-size: 1.25em;
 }
-footer
+.floating-box
 {
-  height: 200px;
-  background:rgb(91, 157, 233);
+  -webkit-box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75);
+  box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75); 
+}
+#main-doc
+{
+  background-image: url("https://lh3.googleusercontent.com/5YsGD_nzU2g1gVguJ5MaVkDEHntoyHy4aHfAxbOY3Ogm1Ute7C2jKCfVTP_yXCNFkwXf0QXpmqM2KUWlcP8J8VhniYNBJsva2MGwL65ms-uBeIC6jg6AIuZ1c6PFsS1NVJrHkX8IiJQ=w2400");
+  background-color:  #1167E8;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  text-align: center;
+}
+#doc-content
+{
+  background: rgba(91, 157, 233, 0.568);
+  margin-left: 60px;
+  margin-right: 60px;
+}
+/*Navbar-wellcome Section *****************************************************************************************  */
+.li_link
+{
+  display: block;
+  float: right;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }
 .a-nav_bar
 {
@@ -45,30 +67,6 @@ footer
   top: 0 px;
   background:rgba(14, 80, 180, 0.787);
   z-index: 1;
-}
-.achievements_imagen
-{
-  width: 300px;
-  height: 200px;
-}
-.about-divs
-{
-  width: 320px;
-  height: 240px;
-  padding-top: 10px;
-  background: #EEBB17;
-  color: black;
-  
-  
-}
-.container-fluid {
-  padding: 60px 50px;
-}
-.floating-box
-{
-  -webkit-box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75);
-  -moz-box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75);
-  box-shadow: 7px 10px 37px -3px rgba(0,0,0,0.75); 
 }
 #welcome
 {
@@ -90,7 +88,14 @@ footer
   position: relative;
   bottom: 30px;
 }
-/*Who I am? Section *****************************************************************************************  */
+.nav_bar a:hover {
+  background: #ddd;
+  color: black;
+  text-decoration: none;
+}
+/* ****************************************************************************************************************  */
+
+/*Who I am? Section ***********************************************************************************************  */
 .a_skill
 {
   background: linear-gradient(160deg, #3779dbde 50%, rgb(26, 92, 192) 50%);
@@ -240,6 +245,26 @@ footer
 }
 /* ***********************************************************************************************************  */
 
+/*Skills-Project Section *****************************************************************************************  */
+.container-fluid {
+  padding: 60px 50px;
+}
+.title_box
+{
+  background: rgba(155, 185, 233, 0.733);
+  margin: 70px 30px 30px 30px;
+  height: 70px;
+}
+.title_box_interior
+{
+  border: 2px solid rgb(238, 187, 23);
+  padding-top: 5px;
+  height: 50px;
+  position: relative;
+  top: 10px;
+  background: rgb(14, 80, 180);
+  margin: 0px 30px 0px 30px; 
+}
 #achievements
 {
   position: relative;
@@ -248,30 +273,38 @@ footer
 }
 #projects
 {
-  background: red;
   position: relative;
   top: 50px;
   bottom: 50px;
 }
+.achievements_imagen
+{
+  width: 300px;
+  height: 200px;
+  border: 2px solid rgb(238, 187, 23);
+}
+.achievements-divs
+{
+  width: 340px;
+  height: 260px;
+  padding-top: 10px;
+  background: rgba(14, 80, 180, 0.637);
+  color: #DBDBDB;
+}
+.achievements-divs:hover
+{
+  -webkit-box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
+  -moz-box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
+  box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
+}
+/* ****************************************************************************************************************  */
 
-#main-doc
+/*Footer Section **************************************************************************************************  */
+footer
 {
-  background-image: url("https://lh3.googleusercontent.com/5YsGD_nzU2g1gVguJ5MaVkDEHntoyHy4aHfAxbOY3Ogm1Ute7C2jKCfVTP_yXCNFkwXf0QXpmqM2KUWlcP8J8VhniYNBJsva2MGwL65ms-uBeIC6jg6AIuZ1c6PFsS1NVJrHkX8IiJQ=w2400");
-  background-color:  #1167E8;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  text-align: center;
+  height: 200px;
+  background:rgb(91, 157, 233);
 }
-#doc-content
-{
-  background: rgba(91, 157, 233, 0.568);
-  margin-left: 60px;
-  margin-right: 60px;
-  
-}
-.nav_bar a:hover {
-  background: #ddd;
-  color: black;
-  text-decoration: none;
-}
+/* ****************************************************************************************************************  */
+
+
