@@ -13,11 +13,6 @@ h3
 {
   color: #EEBB17;
 }
-h2
-{
-  padding: 0;
-  margin: 0;
-}
 p
 {
   margin: 5% 10% 10% 10%;
@@ -59,6 +54,10 @@ p
   color: #EEBB17;
   text-decoration: none;
 }
+.a-nav_bar:hover {
+  color: black;
+  text-decoration: none;
+}
 .nav_bar
 {
   text-align: right;
@@ -87,11 +86,6 @@ p
   margin-right: 30px;
   position: relative;
   bottom: 30px;
-}
-.nav_bar a:hover {
-  background: #ddd;
-  color: black;
-  text-decoration: none;
 }
 /* ****************************************************************************************************************  */
 
@@ -265,6 +259,11 @@ p
   background: rgb(14, 80, 180);
   margin: 0px 30px 0px 30px; 
 }
+.h2_padding_0
+{
+  padding: 0;
+  margin: 0;
+}
 #achievements
 {
   position: relative;
@@ -291,11 +290,50 @@ p
   background: rgba(14, 80, 180, 0.637);
   color: #DBDBDB;
 }
+.project-divs
+{
+  width: 340px;
+  height: 450px;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  background: rgba(14, 80, 180, 0.637);
+  color: #DBDBDB;
+}
 .achievements-divs:hover
 {
   -webkit-box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
   -moz-box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
   box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
+}
+.project-divs:hover
+{
+  -webkit-box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
+  -moz-box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
+  box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
+  -webkit-transform:scale(1.05);
+  -moz-transform:scale(1.05);
+  transform:scale(1.05);
+}
+.p_project_title
+{
+  padding: 0;
+  margin: 2px 0px 7px 0px;
+  font-size: 1.6em;
+}
+.li_project
+{
+  padding:0;
+  margin: 5px 0px 5px 0px;
+  font-size: 1em;
+  text-align: left;
+}
+.container_ul_project
+{
+  background: rgba(68, 132, 228, 0.637);
+  margin: 0px 20px 0px 20px;
+  padding: 5px 5px 5px 30px;
+  height: 175px;
+  list-style-type: square;
 }
 /* ****************************************************************************************************************  */
 
