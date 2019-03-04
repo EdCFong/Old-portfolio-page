@@ -46,7 +46,7 @@ p
   display: block;
   float: right;
   text-align: center;
-  padding: 14px 20px;
+  padding: 14px 20px 14px 20px;
   text-decoration: none;
 }
 .a-nav_bar
@@ -67,7 +67,7 @@ p
   background:rgba(14, 80, 180, 0.787);
   z-index: 1;
 }
-#welcome
+#welcome-section
 {
   min-height: 55vh;
   padding-top: 45vh;
@@ -87,12 +87,42 @@ p
   position: relative;
   bottom: 30px;
 }
+@media (max-width: 520px)
+{
+  #welcome_name
+{
+  margin-left: 15%;
+  margin-right: 20%;
+}
+#welcome-section
+{
+  min-height: 45vh;
+  padding-top: 35vh;
+}
+}
+@media (max-width: 810px)
+{
+  #doc-content
+  {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media (max-width: 550px)
+{
+  #doc-content
+  {
+    margin-left: 20px;
+    margin-right: 20px; 
+  }
+}
 /* ****************************************************************************************************************  */
 
 /*Who I am? Section ***********************************************************************************************  */
 .a_skill
 {
-  background: linear-gradient(160deg, #3779dbde 50%, rgb(26, 92, 192) 50%);
+  /*background: linear-gradient(160deg, #3779dbde 50%, rgb(26, 92, 192) 50%);*/
+  background: rgb(26, 92, 192);
   color: #DBDBDB;
   display: flex;
   width: 120px;  
@@ -149,13 +179,14 @@ p
   background: rgb(155, 185, 233);
   color: #363131;
   position: relative;
-  height: 480px;
+  height: 500px;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   display: flex;
   flex-direction: row;
   top: 50px;
+  padding: 0;
 }
 #box_who_i_am
 {
@@ -183,7 +214,7 @@ p
   border-radius: 6px 6px 6px 6px;
   -moz-border-radius: 6px 6px 6px 6px;
   -webkit-border-radius: 6px 6px 6px 6px;
-  margin: 15px;
+  margin: 2%;
   display: flex;
   flex-direction: row;
 }
@@ -237,6 +268,64 @@ p
 {
   margin-top: 10%;
 }
+@media (max-width: 1360px)
+{
+  #About
+  {
+    height: 530px;
+  
+  }
+}
+@media (max-width: 1090px)
+{
+  #About
+  {
+    height: 530px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media (max-width: 990px)
+{
+  #About
+  {
+    height: 620px;
+  }
+  .a_skill
+  {
+    width: 100px;  
+  }
+  .p_skill
+  {
+  margin: 10px 0px 7px 7px; 
+  }
+}
+@media (max-width: 800px)
+{
+  #About
+  {
+    flex-direction: column;
+    height: 1000px;
+  }
+  #box_who_i_am
+  {
+    width: 100%;
+    height: 50%;
+  }
+  #box_skills_technologies
+ {
+    width: 96%;
+    height: 50%;
+ }
+}
+@media (max-width: 540px)
+{
+  #skill_list
+  {
+    margin: 20px 0px 20px 10px;
+  }
+}
 /* ***********************************************************************************************************  */
 
 /*Skills-Project Section *****************************************************************************************  */
@@ -278,22 +367,25 @@ p
 }
 .achievements_imagen
 {
-  width: 300px;
+  width: 88%;
   height: 200px;
   border: 2px solid rgb(238, 187, 23);
 }
 .achievements-divs
 {
-  width: 340px;
+  /*width: 340px;*/
   height: 260px;
+  width: 90%;
   padding-top: 10px;
   background: rgba(14, 80, 180, 0.651);
   color: #DBDBDB;
+  margin-bottom: 50px;
 }
-.project-divs
+.project-tile
 {
-  width: 340px;
+  /*width: 340px;*/
   height: 450px;
+  width: 90%;
   padding-top: 10px;
   margin-bottom: 50px;
   background: rgba(14, 80, 180, 0.637);
@@ -305,14 +397,14 @@ p
   -moz-box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
   box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
 }
-.project-divs:hover
+.project-tile:hover
 {
   -webkit-box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
   -moz-box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
   box-shadow: 1px 10px 45px 2px rgb(238, 187, 23);
-  -webkit-transform:scale(1.05);
+  /*-webkit-transform:scale(1.05);
   -moz-transform:scale(1.05);
-  transform:scale(1.05);
+  transform:scale(1.05);*/
 }
 .p_project_title
 {
@@ -330,10 +422,85 @@ p
 .container_ul_project
 {
   background: rgba(68, 132, 228, 0.637);
-  margin: 0px 20px 0px 20px;
+  margin: 0% 6% 0% 6%;
+  width: 88%;
   padding: 5px 5px 5px 30px;
-  height: 175px;
+  /*height: 175px;*/
+  height: 40%;
   list-style-type: square;
+}
+@media (max-width: 1380px)
+{
+  .achievements-divs
+  {
+    height: 280px;
+  }
+  .project-tile
+  {
+    height: 470px;
+  }
+}
+@media (max-width: 1200px)
+{
+  .project-tile
+  {
+    height: 600px;
+  }
+  .container_ul_project
+  {
+    height: 50%;
+  }
+}
+@media (max-width: 970px)
+{
+  .project-tile
+  {
+    height: 800px;
+    width: 96%;
+  }
+  .container_ul_project
+  {
+    height: 60%;
+  }
+}
+@media (max-width: 930px)
+{
+  .achievements-divs
+  {
+    height: 300px; 
+  }
+}
+@media (max-width: 765px)
+{
+  .project-tile
+  {
+    height: 450px;
+    width: 90%; 
+  }
+  .container_ul_project
+  {
+    height: 40%;
+  }
+}
+@media (max-width: 540px)
+{
+  .title_box
+  {
+    height: 100px;
+  }
+  .title_box_interior
+  {
+    height: 80px;
+  }
+  .project-tile
+  {
+    height: 500px;
+    width: 100%; 
+  }
+  .container_ul_project
+  {
+    height: 45%;
+  }
 }
 /* ****************************************************************************************************************  */
 
@@ -359,6 +526,7 @@ footer
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 .social_media
 {
@@ -388,7 +556,39 @@ footer
 {
   background: rgb(230, 174, 137);
 }
-
+@media (max-width: 1240px)
+{
+  #social_media_box
+  {
+    width: 90%;
+    height: 90%;
+    margin: 3% 5% 7% 5%;
+  }
+}
+@media (max-width: 1100px)
+{
+  #social_media_box
+  {
+    width: 96%;
+    height: 70%;
+    margin: 3% 2% 10% 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  footer
+  {
+    height:400px;
+  }
+}
+@media (max-width: 490px)
+{
+  footer
+  {
+    height:600px;
+  }
+}
 /* ****************************************************************************************************************  */
+
+
 
 
